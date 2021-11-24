@@ -1,7 +1,7 @@
 from django.template import Library, Node
 from django.template.base import token_kwargs
 from collections import OrderedDict, Iterable
-from django.core.urlresolvers import reverse, NoReverseMatch
+from django.urls import reverse, NoReverseMatch
 from django.forms.boundfield import BoundField
 from django.utils.html import mark_safe
 from htmlutils.html import HtmlTags
