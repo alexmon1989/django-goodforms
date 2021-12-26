@@ -1,6 +1,7 @@
 from django.template import Library, Node
 from django.template.base import token_kwargs
-from collections.abc import OrderedDict, Iterable
+from collections import OrderedDict
+from collections.abc import Iterable
 from django.urls import reverse, NoReverseMatch
 from django.forms.boundfield import BoundField
 from django.utils.html import mark_safe
